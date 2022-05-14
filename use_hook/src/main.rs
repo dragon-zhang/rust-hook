@@ -1,5 +1,8 @@
+use std::os::raw::c_uint;
+
 fn main() {
     unsafe {
-        println!("{}", libc::abs(-1));
+        //sleep 1s
+        println!("{}", libc::sleep(1));
     }
 }
