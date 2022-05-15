@@ -1,0 +1,10 @@
+[package]
+name = "dependencie_use_hook"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2.119"
+use_hook = { path = "../use_hook" }

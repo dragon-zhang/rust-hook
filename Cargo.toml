@@ -1,5 +1,6 @@
 [workspace]
 members = [
     "hook",
-    "use_hook"
+    "use_hook",
+    "dependencie_use_hook"
 ]

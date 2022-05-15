@@ -3,6 +3,14 @@
 version = 3
 
 [[package]]
+name = "dependencie_use_hook"
+version = "0.1.0"
+dependencies = [
+ "libc",
+ "use_hook",
+]
+
+[[package]]
 name = "hook"
 version = "0.1.0"
 dependencies = [
